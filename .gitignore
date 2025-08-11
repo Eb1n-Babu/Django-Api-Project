@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+*.pot
+*.pyc
+*.mo
+*.log
+local_settings.py
+
+# Environment
+.env
+*.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (optional: if you want to exclude them during early dev)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Static & Media (if generated)
+staticfiles/
+media/
+
+# Node (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
